@@ -1,0 +1,46 @@
+nav {
+    padding: 73px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Gilroy", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #474b53;
+}
+.main-menu {
+    ul {
+        display: flex;
+    }
+    a {
+        padding: 0 42px;
+        &:hover {
+            color: $accent;
+        }
+    }
+
+}
+
+
+.logo {
+    fill: #0FA2B0;
+    width: 152px;
+    height: 50px;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    transition: 0.3s;
+    color: $accent;
+    &:hover {
+        background-color: $accent;
+        color: #f9fcfd;;
+        font-weight: 800;
+    }
+}
+//header
