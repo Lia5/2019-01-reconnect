@@ -53,6 +53,12 @@ footer {
         font-weight: 800;
         font-size: 14px;
         text-transform: uppercase;
+        a {
+            color: #fff;
+        }
+        span {
+            padding: 0 5px;
+        }
     }
     &__menu {
         width: 42%;
