@@ -10,8 +10,12 @@
 .problems {
     background-color: #5ba1af;
     position: relative;
+    &__slider {
+
+    }
     &__item {
         color: #fff;
+        // width: 30%;
     }
     &__title {
         font-size: 30px;
@@ -56,4 +60,9 @@
         background-color: #474b53;
 
     }
+}
+.slick-arrow {
+    padding: 12px 16px;
+    width: 46px;
+    height: 46px;
 }

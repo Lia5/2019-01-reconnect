@@ -1,53 +1,34 @@
-// $(function() {
-
-// 	// Custom JS
-
-// });
+$(function() {
 
 
+  //slider 
+  if(jQuery('.problems__slider').length) {
 
-document.addEventListener('DOMContentLoaded', function(){
-//menu
-    var menu = document.querySelector('.toggle-menu');
-    menu.addEventListener('click', function(){
-        var nav = document.querySelector('.main-menu');
-        nav.classList.toggle('active');
-
+    $('.problems__slider').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: true,
+      // prevArrow: '<i class="fa fa-angle-left feedback-slider-arrows arrow-left_mob"></i>',
+      prevArrow: '<svg class="svg-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M238.475 475.535l7.071-7.07c4.686-4.686 4.686-12.284 0-16.971L50.053 256 245.546 60.506c4.686-4.686 4.686-12.284 0-16.971l-7.071-7.07c-4.686-4.686-12.284-4.686-16.97 0L10.454 247.515c-4.686 4.686-4.686 12.284 0 16.971l211.051 211.05c4.686 4.686 12.284 4.686 16.97-.001z"></path></svg>',
+      // nextArrow: '<i class="fa fa-angle-right feedback-slider-arrows arrow-right_mob"></i>',
+      nextArrow: '<svg class="svg-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg>',
+      responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            arrows: false,
+          }
+        },
+        {
+          breakpoint: 1366,
+          settings: {
+            slidesToShow: 2
+          }
+        }
+      ]
     });
-    var cross = document.querySelector('.cross');
-    cross.addEventListener('click', function(){
-        var nav = document.querySelector('.main-menu');
-        nav.classList.toggle('active');
-
-    });
-//tabs
-	// store tabs variable
-	var myTabs = document.querySelectorAll("ul.header__tabs > li");
-    function myTabClicks(tabClickEvent) {
-		for (var i = 0; i < myTabs.length; i++) {
-			myTabs[i].classList.remove("active");
-		}
-		var clickedTab = tabClickEvent.currentTarget;
-		clickedTab.classList.add("active");
-		tabClickEvent.preventDefault();
-		var myContentPanes = document.querySelectorAll(".tab-pane");
-		for (i = 0; i < myContentPanes.length; i++) {
-			myContentPanes[i].classList.remove("active");
-		}
-        var anchorReference = tabClickEvent.target;
-        console.log(anchorReference);
-        var activePaneId = anchorReference.getAttribute("href");
-        console.log(activePaneId);
-        var activePane = document.querySelector(activePaneId);
-        console.log(activePaneId);
-		activePane.classList.add("active");
-    }
-    for (i = 0; i < myTabs.length; i++) {
-		myTabs[i].addEventListener("click", myTabClicks)
-	}
-
-
-
-
+  }
 
 });
