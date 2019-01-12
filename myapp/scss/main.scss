@@ -88,20 +88,6 @@ ul,li {
 	font-size: 10px;
 	letter-spacing: 4px;
 }
-.subtitle {
-	// font-family: $title-font;
-	text-transform: uppercase;
-	font-size: 12px;
-	letter-spacing: 12px;
-	color: #000;
-}
-.title {
-	// font-family: $title-font;
-	text-transform: uppercase;
-	font-size: 35px;
-	letter-spacing: 12px;
-	color: #000;
-}
 .btn {
 	position: relative;
 	display: inline-block;
@@ -147,6 +133,7 @@ ul,li {
 }
 
 @import "sections/header"; 
+@import "sections/problems"; 
 
 @import "sections/footer"; 
 
