@@ -1,4 +1,5 @@
 .choice {
+    padding-bottom: 154px;
     .wrap {
         padding: 0 100px;
     }
@@ -8,6 +9,7 @@
         color: #474b53;
         line-height: 70.69px;
         font-size: 44px;
+        margin-bottom: 104px;
     }
     &__title {
         font-weight: 800;
@@ -19,7 +21,7 @@
             width: 75px;
             height: 2px;
             background-color: #474b53;
-            margin: 35px 10px;
+            margin: 35px 31px;
         }
     }
     &__def {
@@ -40,7 +42,7 @@
         font-family: "Lato", Arial, Helvetica, sans-serif;
         font-weight: 400;
         letter-spacing: 0.4px;
-        margin: 150px 0;
+        margin: 108px 0;
         &--wrap {
             width: 50%;
             display: flex;
@@ -48,10 +50,10 @@
             justify-content: center;
             align-items: center;
             &:nth-child(2n) {
-                padding-left: 200px;
+                padding-left: 257px;
             }
             &:nth-child(2n+1) {
-                padding-right: 200px;
+                padding-right: 257px;
             }
         }
     }
@@ -60,15 +62,16 @@
         font-size: 10px;
         text-transform: uppercase;
         letter-spacing: 0.25px;
-        padding-bottom: 20px;
+        padding-bottom: 25px;
+        padding-top: 64px;
     }
 
     &__circle {
         position: absolute;
-        width: 587px;
-        height: 587px;
+        width: 687px;
+        height: 687px;
         border-radius: 50%;
-        border: 100px solid #0da0ae;
+        border: 117px solid #0da0ae;
         top: 50%;
         left: 50%;
         margin-right: -50%;
@@ -110,27 +113,27 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 0); 
-    width: 100px;
+    width: 117px;
     height: 50%;
     background-color: #fff;
 }
 .circle-top {
-    top: -100px;
+    top: -117px;
 } 
 .circle-bottom {
-    bottom: -100px;
+    bottom: -117px;
 }
 .circle-left, .circle-right {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%); 
     width: 50%;
-    height: 100px;
+    height: 117px;
     background-color: #fff;
 }
 .circle-left {
-    left: -100px;
+    left: -117px;
 }
 .circle-right {
-    right: -100px;    
+    right: -117px;    
 }

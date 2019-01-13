@@ -19,6 +19,7 @@ header {
         font-weight: 800;
         line-height: 72px;
         margin: 0;
+        padding-bottom: 81px;
         span {
             color: $accent;
             border-right: 4px solid #000;
@@ -38,7 +39,7 @@ header {
     }
 }
 nav {
-    padding: 73px 20px;
+    padding: 60px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,12 +84,16 @@ nav {
     }
 }
 .header {
-    padding: 0 100px;
-
+    padding: 0 100px 70px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    &-controls {
+        .btn {
+            margin-right: 66px;
+        }
+    }
 }
 .next {
     &__icons {

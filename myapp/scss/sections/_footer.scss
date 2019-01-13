@@ -3,7 +3,7 @@ footer {
 }
 .footer {
     position: relative;
-    padding: 93px 69px 6px 59px;
+    padding: 36px 102px 10px 88px;
     color: #fff;
     display: flex;
     flex-wrap: wrap;
@@ -24,15 +24,18 @@ footer {
         display: flex;
         justify-content: space-around;
         flex-grow: 1;
+        padding: 0 22px;
     }
     &__description {
         width: 42%;
+        padding-left: 16px;
     }
     &__title {
         font-size: 18px;
         font-family: "Gilroy", Arial, Helvetica, sans-serif;
         font-weight: 800;
         text-transform: uppercase;
+        padding-bottom: 7px;
     }
     &__subtitle {
         font-size: 16px;
@@ -48,11 +51,12 @@ footer {
     }
     &__login {
         width: 22%;
-        padding-left: 12%;
+        padding-left: 11%;
         font-family: "Lato", Arial, Helvetica, sans-serif;
         font-weight: 800;
         font-size: 14px;
         text-transform: uppercase;
+        padding-bottom: 92px;
         a {
             color: #fff;
         }
@@ -64,6 +68,8 @@ footer {
         width: 42%;
         font-size: 14px;
         text-transform: uppercase;
+        margin-top: 23px;
+        padding-left: 16px;
         ul {
             display: flex;
             flex-direction: column;
@@ -74,14 +80,25 @@ footer {
         a {
             display: block;
             color: #fff;
-            padding-bottom: 12px;
+            padding-bottom: 21px;
         }
     }
     &__partners {
         position: absolute;
-        right: 69px;
-        bottom: 18px;
+        right: 99px;
+        bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        svg {
+            fill: #686e78;
+        }
     }
+}
+.logo--white {
+    width: 227px;
+    margin-top: 18px;
 }
 .circle {
     width: 26px;
@@ -120,6 +137,7 @@ footer {
     &__contacts {
         flex-grow: 1;
         text-align: center;
+        padding-right: 65px;
         a {
             display: block;
             color: #fff;
@@ -131,21 +149,13 @@ footer {
     font-size: 18px;
     font-family: "Lato", Arial, Helvetica, sans-serif;
     font-weight: 800;
+    margin-bottom: 6px;
 }
 .mail {
     font-size: 14px;
     font-family: "Lato", Arial, Helvetica, sans-serif;
     font-weight: 400;
     border-bottom: 1px dotted #fff;
-}
-.footer__partners {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    svg {
-        fill: #686e78;
-    }
 }
 .tinkoff {
     width: 123px;
@@ -178,7 +188,7 @@ footer {
 }
 .rights {
     width: 100%;
-    padding-top: 37px;
+    padding-top: 15px;
     font-family: "Lato", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 10px;

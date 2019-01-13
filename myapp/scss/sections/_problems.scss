@@ -10,7 +10,7 @@
 }
 .problems {
     padding-top: 158px;
-    padding-bottom: 73px;
+    padding-bottom: 124px;
     background-color: #5ba1af;
     position: relative;
     &__slider {
@@ -26,10 +26,12 @@
         font-family: "Gilroy";
         font-weight: 800;
         padding-bottom: 55px;
+        padding-left: 48px;
     }
     &__description {
        display: flex;
        align-items: center;
+       justify-content: center;
        padding-bottom: 82px
     }
     &__circle {
@@ -77,8 +79,8 @@
     fill: #fff;
 }
 .svg-left {
-    left: -100px;
+    left: -200px;
 }
 .svg-right {
-    right: -100px;
+    right: -200px;
 }
