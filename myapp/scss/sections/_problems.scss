@@ -32,7 +32,8 @@
        display: flex;
        align-items: center;
        justify-content: center;
-       padding-bottom: 82px
+       padding-bottom: 82px;
+       min-height: 154px;
     }
     &__circle {
         left: 0;

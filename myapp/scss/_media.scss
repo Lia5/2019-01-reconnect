@@ -211,6 +211,9 @@
     nav {
         padding: 17px 15px 48px 52px;
     }
+    header {
+        background-position: right 0 bottom -27px;
+    }
     .header {
         padding: 0 50px 70px;
     }
@@ -229,8 +232,116 @@
     .mouse {
         display: none;
     }
+    //problems
+    .problems__slider {
+        padding: 0 90px;
+    }
+    .problems__text {
+        max-width: 272px;
+    }
+    .svg-left {
+        left: 36px;
+    }
+    .svg-right {
+        right: 36px;
+    }
+    .problems {
+        padding-bottom: 17px;
+    }
+    //info
+    .info {
+        padding-bottom: 65px;
+    }
+    .info__map {
+        width: 43%;
+    }
 
-
+    .info__main {
+        width: 57%;
+    }
+    .info__title {
+        padding-top: 78px;
+    }
+    .info--black .info__title {
+        padding-top: 99px;
+    }
+    .map-dot1 {
+        left: -25%;
+    }
+    //choice
+    .choice {
+        padding-bottom: 178px;
+    }
+    .choice .wrap {
+        padding: 0 47px;
+    }
+    .choice h2 {
+        font-size: 23px;
+        line-height: 37.87px;
+        margin-bottom: 49px;
+    }
+    .diagram__title {
+        padding-top: 45px;
+    }
+    .diagram__item {
+        max-width: 238px;
+        margin: 0;
+    }
+    .diagram__item--wrap:nth-child(2n+1) {
+        padding-right: 211px;
+    }
+    .diagram__item--wrap:nth-child(2n) {
+        padding-left: 211px;
+    }
+    .diagram__circle {
+        // top: 33%;
+    }
+    .diagram__item--wrap:nth-child(1),
+    .diagram__item--wrap:nth-child(2) {
+        padding-bottom: 341px;
+    }
+    //footer
+    .footer {
+        padding-left: 34px;
+        padding-right: 14px;
+    }
+    .footer__name {
+        width: 35%;
+    }
+    .footer__description {
+        width: 65%;
+        padding-left: 0;
+    }
+    .circle:not(:first-child) {
+        display: none;
+    }
+    .footer__title {
+        padding-bottom: 19px;
+    }
+    .footer__circle {
+        padding: 0 2px 0 2px;
+    }
+    .footer__menu {
+        width: 27%;
+        margin-top: 54px;
+    }
+    .footer__logo {
+        width: 28%;
+        text-align: left;
+    }
+    .footer__login {
+        width: 22%;
+    }
+    .footer__partners {
+        bottom: -57px;
+        right: 49px;
+    }
+    .social__contacts {
+        padding-left: 16px;
+    }
+    .rights {
+        padding: 67px 102px 14px 49px;
+    }
 }
 @media only screen and (max-width: 1023px) {
   
