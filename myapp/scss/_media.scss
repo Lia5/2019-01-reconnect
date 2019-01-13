@@ -829,6 +829,12 @@
     .circle-left, .circle-right {
         height: 71px;
     }
+    .circle-right {
+        right: -75px;
+    }
+    .circle-left {
+        left: -75px;
+    }
     .diagram__title {
         padding-top: 36px;
         padding-bottom: 10px;
@@ -837,11 +843,14 @@
         line-height: 20px;
     }
     //footer
-    
+    footer .wrap {
+        position: relative;
+    }
     .footer {
         padding-top: 56px;
         padding-left: 17px;
         padding-right: 8px;
+        
         &__text {
             font-size: 38px;
         }
@@ -907,6 +916,7 @@
         padding: 0;
         bottom: 32px;
         left: 19px;
+        width: auto;
     }
 
 }
