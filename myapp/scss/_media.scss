@@ -63,42 +63,49 @@
         margin-left: 33px;
     }
     .map-dot1 {
-        top: 12%;
-        left: -15%;
+        top: 18%;
+        left: -17%;
     }
     .map-dot2 {
-        top: 38%;
-        left: 28%;
-        top: calc(38% + 4px);
-        left: calc(28% + 2px);
+        top: 44%;
+        left: 26%;
+        top: calc(44% + 6px);
+        left: calc(26% + 2px);
     }
     .map-pin1 {
-        top: 19%;
+        width: 22px;
+        height: 31px;
+        top: 23%;
         left: 44%;
     }
     .map-pin2 {
-        top: 24%;
+        width: 20px;
+        height: 28px;
+        top: 29%;
         left: 54%;
     }
     .map-pin3 {
-        top: 34%;
+        width: 16px;
+        height: 22px;
+        top: 42%;
         left: 64%;
     }
     .map-pin4 {
-        top: 47%;
+        width: 27px;
+        height: 38px;
+        top: 51%;
         left: 43%;
     }
     .map-dot3 {
-        top: 52%;
-        top: calc(52% + -5px);
-        left: 42%;
+        top: 54%;
+        left: calc(41% + 1px);
     }
     #map-ret {
         top: 29%;
         left: 18%;
     }
     #map-dev {
-        top: 40%;
+        top: 44%;
         left: 38%;
     }
     .info__main {
@@ -254,6 +261,10 @@
     }
     .info__map {
         width: 43%;
+        img {
+            width: 136%;
+            margin-left: -22px;
+        }
     }
 
     .info__main {
@@ -266,7 +277,36 @@
         padding-top: 99px;
     }
     .map-dot1 {
-        left: -25%;
+        left: -32%;
+        top: 22%;
+    }
+    .map-dot2 {
+        top: 48%;
+        top: calc(48% + 7px);
+        left: 22%;
+    }
+    #map-ret {
+        top: 39%;
+        left: 10%;
+    }
+    .map-pin1 {
+        top: 29%;
+        left: 46%;
+    }
+    .map-pin2 {
+        top: 36%;
+        left: 58%;
+    }
+    .map-pin3 {
+        top: 50%;
+    }
+    .map-dot3 {
+        top: 59%;
+        left: 40%;
+        left: calc(40% + 3px);
+    }
+    .map-pin4 {
+        top: 56%;
     }
     //choice
     .choice {
@@ -344,9 +384,228 @@
     }
 }
 @media only screen and (max-width: 1023px) {
-  
+    .wrap {
+        max-width: 768px;
+    }
+    //header
+    nav {
+        flex-wrap: wrap;
+        padding-top: 0;
+    }
+    .main-menu {
+        padding-left: 0;
+        order: 2;
+        width: 100%;
+        text-align: right;
+        ul {
+            flex-direction: column;
+        }
+        a {
+            padding: 9px 30px;
+            display: block;
+        }
+
+    }
+    header {
+        background-size: 72%;
+    }
+    header:after {
+        width: 28%;
+    }
+    .header-controls {
+        display: flex;
+        justify-content: space-between;
+        .btn {
+            margin-right: 0;
+        }
+    }
+    .title {
+        font-size: 30px;
+        padding-bottom: 102px;
+    }
+    //problems
+    .problems {
+        padding-top: 113px;
+        padding-bottom: 47px;
+        &__title {
+            font-size: 24px;
+            padding-left: 38px;
+        }
+        &__circle {
+            width: 39px;
+            height: 39px;
+            border-width: 10px;
+        }
+        &__slider {
+            padding: 0 67px;
+        }
+        &__text {
+            max-width: 197px;
+        }
+        &__description {
+            align-items: flex-start;
+            padding-bottom: 53px;
+            min-height: 146px;
+        }
+        &:after {
+            width: 30%;
+        }
+    }
+    //info
+    .info {
+        padding-bottom: 53px;
+        .wrap {
+            align-items: center;
+        }
+        &__map {
+            width: 49%;
+        }
+        &__main {
+            width: 51%;
+            padding-right: 54px;
+        }
+        &__title {
+            padding-top: 119px;
+            margin-bottom: 49px;
+            font-size: 30px;
+            padding-top: 84px;
+        }
+        &__item {
+            position: relative;
+            padding-left: 46px;
+            line-height: 20px;
+            padding-bottom: 20px;
+            max-width: 304px;
+        }
+        &__list {
+            margin-bottom: 33px;
+        }
+        &__map img {
+            width: 157%;
+            margin-left: -34px;
+        }
+    }
+    .num {
+        position: absolute;
+        left: 0;
+        padding-right: 0;
+    }
+    .info--black .info__title {
+        padding-top: 88px;
+        margin-bottom: 63px;
+    }
+    .map-dot1 {
+        left: -42%;
+        top: 20%;
+    }
+    .map-dot2 {
+        top: 47%;
+        top: calc(47% + -2px);
+        left: 21%;
+    }
+    #map-ret {
+        top: 37%;
+        left: 7%;
+    }
+    .choice__title:after {
+        width: 41px;
+        margin: 16px 45px;
+    }
+    .diagram__title {
+        padding-top: 18px;
+        line-height: 16px;
+    }
+    .diagram__item--wrap:nth-child(2n+1) {
+        padding-right: 145px;
+        text-align: right;
+    }
+    .diagram__item--wrap:nth-child(2n) {
+        padding-left: 145px;
+    }
+    .diagram__item--wrap:nth-child(1), .diagram__item--wrap:nth-child(2) {
+        padding-bottom: 547px;
+    }
+    .diagram__circle .logo {
+        width: 155px;
+        height: 52px;
+    }
+    .choice {
+        padding-bottom: 73px;
+    }
+    //footer
+    .circle768 {
+        display: block;
+    }
+    .circle:not(:first-child) {
+        display: block;
+    }
+    .footer {
+        padding-top: 74px;
+        padding-left: 45px;
+        padding-right: 22px;
+        align-items: flex-start;
+        &__text {
+            padding-left: 0;
+        }
+        &__name {
+            width: 100%;
+        }
+        &__circle {
+            padding: 0 18px;
+        }
+        &__description {
+            width: 100%;
+            padding-left: 5px;
+            margin-bottom: 39px;
+        }
+        &__title {
+            padding-bottom: 13px;
+            padding-top: 18px;
+        }
+        &__menu {
+            width: 34%;
+            padding-left: 26px;
+            margin-top: 13px;
+            font-size: 12px;
+            ul {
+                white-space: normal;
+            }
+        }
+        &__logo {
+            width: 25%;
+            margin-top: 5px;
+        }
+        &__login {
+            width: 26%;
+            font-size: 12px;
+            bottom: 61px;
+        }
+    }
+    .social {
+        margin-top: 0;
+        width: 34%;
+        &__contacts {
+            padding-left: 2px;
+            margin-top: 41px;
+        }
+    }
+    .logo--white {
+        width: 151px;
+        height: 50px;
+        margin-top: 0;
+    }
+    .phone {
+        margin-bottom: 12px;
+    }
+    .rights {
+        padding-top: 19px;
+    }
+    .footer__partners {
+        bottom: -33px;
+        right: 52px;
+    }
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 767px) {
 
 }
 @media only screen and (max-width: 500px) {
