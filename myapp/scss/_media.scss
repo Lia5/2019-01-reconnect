@@ -606,9 +606,311 @@
     }
 }
 @media only screen and (max-width: 767px) {
+    .wrap {
+        max-width: 480px;
+    }
+    .btn {
+        min-width: 203px;
+        padding: 20px 26px;
+    }
+    //header
+    header {
+        height: auto;
+        min-height: auto;
+        .wrap {
+            height: auto;
+            min-height: auto;
+        }
+        h1 {
+            font-size: 24px;
+            line-height: 30px;
+            max-width: 386px;
+            padding-bottom: 41px;
+            span {
+                border-width: 1px;
+                padding-right: 3px;
+            }
+        }
+        &:after {
+            width: 35%;
+        }
+    }
+    nav {
+        padding-left: 21px;
+        padding-right: 0;
+        padding-bottom: 0;
+        align-items: flex-start;
+    }
+    .main-menu {
+        display: none;
+    }
+    .logo {
+        margin-top: 19px;
+        width: 98px;
+        height: 32px;
+    }
+    .login {
+        width: 88px;
+        height: 88px;
+    }
+    .header {
+        padding: 0 19px 66px;
+        justify-content: flex-start;
+    }
+    .next {
+        display: none;
+    }
+    //problems
+    .problems {
+        padding-top: 50px;
+        padding-bottom: 58px;
+        &__slider {
+            padding: 0 58px;
+        }
+        &__text {
+            max-width: 320px;;
+        }
+        &__title {
+            padding-left: 0;
+            padding-bottom: 21px;
+
+        }
+        &__description {
+            min-height: auto;
+            padding-bottom: 6px;
+        }
+        &__circle {
+            width: 28px;
+            height: 28px;
+            border-width: 7px;
+        }
+        &:after {
+            width: 26%;
+        }
+    }
+    .title {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+    .slick-arrow {
+        top: 8%;
+        width: 31px;
+    height: 31px;
+    }
+    .svg-left {
+        left: 10px;
+    }
+    .svg-right {
+        right: 10px;
+    }
+    //info
+    .info {
+        padding-bottom: 68px;
+        .wrap {
+            flex-wrap: wrap;
+        }
+        &__map {
+            width: 100%;
+            max-height: 482px;
+        }
+        &__main {
+            width: 100%;
+            padding-left: 21px;
+        }
+        &__map img {
+            width: 100%;
+            margin-left: 148px;
+        }
+        &__title {
+            margin-bottom: 41px;
+            font-size: 24px;
+            padding-top: 50px;
+        }
+        &__item {
+            max-width: none;
+            padding-left: 41px;
+        }
+        &__list {
+            margin-bottom: 3px;
+        }
+        .btn {
+            min-width: 275px;
+        }
+        &--black {
+            .info__title {
+                padding-top: 62px;
+                margin-bottom: 52px;
+            }
+            .info__list {
+                margin-bottom: 19px;
+            }
+        }
+    }
+    .map-pin1 {
+        top: 31%;
+        left: 75%;
+    }
+    .map-pin2 {
+        top: 51%;
+        left: 81%;
+    }
+    .map-pin3 {
+        top: 77%;
+        left: 35%;
+    }
+    .map-dot1 {
+        left: 0;
+        top: 6%;
+    }
+    .map-dot2 {
+        top: 56%;
+        top: calc(56% + -3px);
+        left: 49%;
+    }
+    #map-ret {
+        top: 37%;
+        left: 38%;
+    }
+    .map-dot3 {
+        top: 89%;
+        left: 65%;
+        left: calc(65% + 3px);
+    }
+    .map-pin4 {
+        top: 83%;
+        left: 67%;
+    }
+    #map-dev {
+        top: 69%;
+        left: 60%;
+    }
+    //choice
+    .choice {
+        padding-bottom: 92px;
+        .wrap {
+            padding: 0 20px;
+        }
+        h2 {
+            display: flex;
+            flex-direction: column;
+        }
+        &__title:after {
+            margin: 18px 24px;
+        }
+        &__def {
+            font-size: 18px;
+            line-height: 24px;
+            padding-top: 13px;
+
+        }
+    }
+    .diagram__item--wrap:nth-child(2n+1) {
+        padding-right: 33px;
+    }
+    .diagram__item--wrap:nth-child(2n) {
+        padding-left: 33px;
+    }
+    .diagram__item--wrap:nth-child(1), .diagram__item--wrap:nth-child(2) {
+        padding-bottom: 483px;
+    }
+    .diagram__circle {
+        width: 441px;
+        height: 441px;
+        border-width: 71px;
+        .logo {
+            width: 126px;
+            height: 42px;
+            margin-top: 0;
+        }
+    }
+    .circle-bottom, .circle-top {
+        width: 71px;
+    }
+    .circle-left, .circle-right {
+        height: 71px;
+    }
+    .diagram__title {
+        padding-top: 36px;
+        padding-bottom: 10px;
+    }
+    .diagram_description {
+        line-height: 20px;
+    }
+    //footer
+    
+    .footer {
+        padding-top: 56px;
+        padding-left: 17px;
+        padding-right: 8px;
+        &__text {
+            font-size: 38px;
+        }
+        &__circle {
+            flex-grow: 0;
+            padding: 0 25px
+        }
+        &__description {
+            margin-top: 24px;
+            padding-left: 0px;
+            margin-bottom: 48px;
+        }
+        &__subtitle {
+            max-width: 354px;
+        }
+        &__menu {
+            order: 3;
+            width: 50%;
+            padding-left: 59px;
+            margin-top: 55px;
+        }
+        &__partners {
+            width: 50%;
+            position: static;
+            order: 2;
+            align-items: flex-start;
+            margin-top: 61px;
+        }
+        &__logo {
+            width: 37%;
+        }
+        &__login {
+            width: 35%;
+            right: 7px;
+            bottom: 229px;
+        }
+    }
+    .social {
+        width: 50%;
+        &__icons a {
+            margin-right: 0px;
+        }
+        &__contacts {
+            margin-top: 20px;
+        }
+    }
+    .phone {
+        margin-bottom: 9px;
+    }
+    .circle {
+        margin-right: 19px;
+        width: 20px;
+        height: 21px;
+    }
+    .circle768 {
+        display: none;
+    }
+    .circle.circle768 {
+        display: none;
+    }
+    .rights {
+        position: absolute;
+        padding: 0;
+        bottom: 32px;
+        left: 19px;
+    }
 
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 479px) {
    
 }
 
