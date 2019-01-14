@@ -1,5 +1,7 @@
 .choice {
     padding-bottom: 154px;
+    position: relative;
+    overflow: hidden;
     .wrap {
         padding: 0 100px;
     }
@@ -136,4 +138,20 @@
 }
 .circle-right {
     right: -117px;    
+}
+.choice__circle-bg {
+    position: absolute;
+    width: 833px;
+    height: 832px;
+    border: 200px solid #f8fbfc;
+    border-radius: 50%;
+    z-index: -1;
+    top: 62%;
+    transform: translate(0, -50%) ;
+}
+.choice__circle-bg--left {
+    left: -400px;
+}
+.choice__circle-bg--right {
+    right:-400px;
 }

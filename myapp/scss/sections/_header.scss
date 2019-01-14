@@ -6,6 +6,7 @@ header {
     background-position: right 0 bottom -300px;
     background-size: 66%;
     position: relative;
+    overflow: hidden;
     .wrap {
         display: flex;
         flex-direction: column;
@@ -127,5 +128,14 @@ nav {
     fill: #00a2b1;
     width: 15px;
     height: 8px;
+}
+.circle-bg {
+    position: absolute;
+    width: 2169px;
+    height: 2168px;
+    border: 400px solid rgba(99, 168, 181, 0.05);
+    border-radius: 50%;
+    left: 50%;
+    pointer-events:none;
 }
 //header

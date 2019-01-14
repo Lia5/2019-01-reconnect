@@ -5,6 +5,9 @@
         max-width: 1366px;
     }
     //header
+    .circle-bg {
+        left: 26%;
+    }
     header {
         background-position: right 0 bottom -153px;
         h1 {
@@ -24,6 +27,12 @@
         padding-left: 33px;
     }
     //problems
+    .problems__circle-bg {
+        left: 50%;
+    }
+    .problems__mincircle-bg {
+        left: 5%;
+    }
     .problems {
         padding-top: 108px;
         padding-bottom: 48px;
@@ -123,6 +132,11 @@
         margin-bottom: 53px;
     }
     //choice
+    .choice__circle-bg {
+        width: 662px;
+        height: 662px;
+        border-width: 150px;
+    }
     .choice {
         padding-bottom: 98px;
     }
@@ -215,6 +229,11 @@
         max-width: 1024px;
     }
     //header
+    .circle-bg {
+        width: 1538px;
+        height: 1538px;
+        border-width: 200px;
+    }
     nav {
         padding: 17px 15px 48px 52px;
     }
@@ -240,6 +259,12 @@
         display: none;
     }
     //problems
+    .problems__mincircle-bg {
+        border-width: 100px;
+        width: 428px;
+        height: 428px;
+        top: 32%;
+    }
     .problems__slider {
         padding: 0 90px;
     }
@@ -309,6 +334,16 @@
         top: 56%;
     }
     //choice
+    .choice__circle-bg {
+        top: 48%;
+        border-width: 100px;
+    }
+    .choice__circle-bg--left {
+        left: -500px;
+    }
+    .choice__circle-bg--right {
+        right:-500px;
+    }
     .choice {
         padding-bottom: 178px;
     }
@@ -424,6 +459,13 @@
         padding-bottom: 102px;
     }
     //problems
+    .problems__mincircle-bg {
+        border-width: 70px;
+        width: 338px;
+        height: 338px;
+        top: auto;
+        bottom: 71px;
+    }
     .problems {
         padding-top: 113px;
         padding-bottom: 47px;
@@ -506,6 +548,10 @@
     #map-ret {
         top: 37%;
         left: 7%;
+    }
+    // choice
+    .choice__circle-bg {
+        display: none;
     }
     .choice__title:after {
         width: 41px;
@@ -614,6 +660,12 @@
         padding: 20px 26px;
     }
     //header
+    .circle-bg {
+        width: 596px;
+        height: 596px;
+        border-width: 70px;
+        left: 50%;
+    }
     header {
         height: auto;
         min-height: auto;
@@ -661,6 +713,14 @@
         display: none;
     }
     //problems
+    .problems__mincircle-bg {
+        border-width: 70px;
+        width: 255px;
+        height: 255px;
+        top: auto;
+        bottom: 0;
+        left: -9%;
+    }
     .problems {
         padding-top: 50px;
         padding-bottom: 58px;
@@ -928,6 +988,13 @@
     .btn {
         width: 100%;
     }
+    //header
+    .circle-bg {
+        width: 870px;
+        height: 870px;
+        border-width: 100px;
+        left: 16%;
+    }
     header {
         background-size: 150%;
         background-position: right -227px bottom -27px;
@@ -946,6 +1013,16 @@
         }
     }
     //problems
+    .problems__circle-bg {
+        bottom: 31%;
+    }
+    .problems__mincircle-bg {
+        border-width: 70px;
+        width: 255px;
+        height: 255px;
+        right: auto;
+        left: -9%;
+    }
     .problems {
         padding-top: 64px;
         padding-bottom: 38px;

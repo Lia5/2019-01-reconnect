@@ -1,6 +1,11 @@
 footer {
     background-color: #474b53;  
 }
+.footer-bg {
+    background: url("../img/footer-bg.png");
+    background-repeat-y: no-repeat;
+    background-position-y: bottom;
+}
 .footer {
     position: relative;
     padding: 36px 102px 10px 88px;
