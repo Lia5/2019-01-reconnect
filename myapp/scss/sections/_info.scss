@@ -7,7 +7,7 @@
     &__map {
         width: 42%;
         max-height: 1115px;
-        overflow: hidden;
+        
         position: relative;
         img {
             width: 100%;
@@ -114,7 +114,7 @@
 .map-dot1 {
     position: absolute;
     top: 26%;
-    left: -11%;
+    left: -4%;
     width: 482px;
     height: 482px;
     background-color: rgba(15, 163, 177, 0.05);
@@ -149,9 +149,9 @@
 .map-dot2 {
     position: absolute;
     top: 47%;
-    left: 19%;
+    left: 25%;
     top: calc(47% + 4px);
-    left: calc(18% + 4px);
+    left: calc(25% + 3px);
     width: 8px;
     height: 8px;
     background-color: #009ca9;
@@ -160,7 +160,7 @@
 #map-ret {
     position: absolute;
     top: 39%;
-    left: 12%;
+    left: 19%;
     width: 116px;
     height: 59px;
 }

@@ -69,7 +69,6 @@
     }
     .info__map img {
         width: 100%;
-        margin-left: 33px;
     }
     .map-dot1 {
         top: 18%;
@@ -772,14 +771,15 @@
         &__map {
             width: 100%;
             max-height: 482px;
+            overflow: hidden;
         }
         &__main {
             width: 100%;
             padding-left: 21px;
+
         }
         &__map img {
             width: 100%;
-            margin-left: 148px;
         }
         &__title {
             margin-bottom: 41px;
