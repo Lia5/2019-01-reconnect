@@ -13,7 +13,6 @@
          left: 800px;
     }
     header {
-        background-position: right 0 bottom -153px;
         h1 {
             font-size: 30px;
             line-height: 48px;
@@ -239,9 +238,6 @@
     }
     nav {
         padding: 17px 15px 48px 52px;
-    }
-    header {
-        background-position: right 0 bottom -27px;
     }
     .header {
         padding: 0 50px 70px;
@@ -664,6 +660,7 @@
         padding: 20px 26px;
     }
     //header
+
     .circle-bg {
         width: 596px;
         height: 596px;
@@ -671,6 +668,8 @@
         left: 50%;
     }
     header {
+        background-size: 134%;
+        background-position: left -102% bottom -35px;
         height: auto;
         min-height: auto;
         .wrap {
@@ -1004,8 +1003,8 @@
         left: 16%;
     }
     header {
-        background-size: 150%;
-        background-position: right -227px bottom -27px;
+        background-size: 247%;
+        background-position: left -14% bottom -35px;
         &:after {
             width: 21%;
         }
