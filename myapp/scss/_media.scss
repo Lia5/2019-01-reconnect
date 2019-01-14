@@ -770,14 +770,13 @@
     //info
     .info {
         padding-bottom: 68px;
+        overflow: hidden;
         .wrap {
             flex-wrap: wrap;
         }
         &__map {
             width: 100%;
             max-height: 482px;
-            margin: 0 auto;
-            max-width: 480px;
         }
         &__main {
             width: 100%;
@@ -785,10 +784,11 @@
 
         }
         &__map img {
-            width: 115%;
+            width: 119%;
             margin-left: 0;
-            margin-top: -135px;
+            margin-top: -270px;
         }
+
         &__title {
             margin-bottom: 41px;
             font-size: 24px;
@@ -833,11 +833,11 @@
     .map-dot2 {
         top: 56%;
         top: calc(56% + -3px);
-        left: 49%;
+        left: 236px;
     }
     #map-ret {
         top: 37%;
-        left: 38%;
+        left: 186px;
     }
     .map-dot3 {
         top: 89%;
@@ -1059,20 +1059,19 @@
     //info
     .info__map img {
         width: 157%;
-        margin-left: 59px;
     }
     .map-dot1 {
-        left: -81px;
         top: 13%;
+        left: -81px;
     }
     .map-dot2 {
-        left: 155px;
+        left: 156px;
         top: 63%;
         top: calc(63% + -3px);
     }
     #map-ret {
         top: 44%;
-        left: 100px;
+        left: 105px;
     }
     .map-pin1 {
         top: 34%;
