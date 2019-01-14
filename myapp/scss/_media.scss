@@ -921,12 +921,215 @@
 
 }
 @media only screen and (max-width: 479px) {
-   
+    .wrap {
+        max-width: 320px;
+    }
+    
+    .btn {
+        width: 100%;
+    }
+    header {
+        background-size: 150%;
+        background-position: right -227px bottom -27px;
+        &:after {
+            width: 21%;
+        }
+    }
+    .header {
+        padding-top: 18px;
+        padding-bottom: 48px;
+    }
+    .header-controls {
+        flex-wrap: wrap;
+        .btn {
+            margin-bottom: 27px;
+        }
+    }
+    //problems
+    .problems {
+        padding-top: 64px;
+        padding-bottom: 38px;
+        &__slider {
+            padding: 0 34px;
+        }
+        &__text {
+            max-width: 197px;
+        }
+        &__title {
+            padding-left: 24px;
+        }
+        &__description {
+            padding-bottom: 47px;
+        }
+        &:after {
+            width: 20%;
+        }
+    }
+    .title {
+        padding: 0px 61px 55px;
+    }
+    .slick-arrow {
+        top: 6%;
+    }
+    //info
+    .info__map img {
+        width: 157%;
+        margin-left: 59px;
+    }
+    .map-dot1 {
+        left: -25%;
+        top: 13%;
+    }
+    .map-dot2 {
+        top: 63%;
+        top: calc(63% + -3px);
+    }
+    #map-ret {
+        top: 44%;
+        left: 32%;
+    }
+    .map-pin1 {
+        top: 34%;
+        left: 82%;
+    }
+    .map-pin2 {
+        display: none;
+    }
+    .map-pin3 {
+        top: 81%;
+        left: 28%;
+    }
+    .map-pin4 {
+        left: 69%;
+    }
+
+    .info {
+        &__title {
+            padding-top: 88px;
+        }
+        &__main {
+            padding-right: 19px;
+        }
+        &__list {
+            margin-bottom: 34px;
+        }
+        &--black .info__list {
+            margin-bottom: 28px;
+        }
+    }
+    //choice
+    .choice {
+        padding-bottom: 83px;
+        &__title:after {
+            margin: 18px 44px;
+        }
+    }
+    .diagram__item--wrap {
+        justify-content: flex-start;
+    }
+    .diagram__item--wrap:nth-child(2n+1) {
+        padding-right: 20px;
+    }
+    .diagram__item--wrap:nth-child(2n) {
+        padding-left: 20px;
+    }
+    .diagram__item--wrap:nth-child(1), .diagram__item--wrap:nth-child(2) {
+        padding-bottom: 306px;
+    }
+    .diagram__circle {
+        width: 281px;
+        height: 281px;
+        border-width: 46px;
+    }
+    .circle-bottom, .circle-top {
+        width: 46px;
+    }
+    .circle-top {
+        top: -46px;
+    }
+    .circle-bottom {
+        bottom: -46px;
+    }
+    .circle-left, .circle-right {
+        height: 46px;
+    }
+    .circle-left {
+        left: -49px;
+    }
+    .circle-right {
+        right: -49px;
+    }
+    .diagram__circle svg {
+        width: 26px;
+        height: 26px;
+    }
+    .diagram__circle .logo {
+        width: 80px;
+        height: 27px;
+    }
+    .diagram__title {
+        padding-bottom: 17px;
+    }
+    //footer
+
+    .footer {
+        padding-right: 19px;
+        &__circle {
+            padding: 0 0 0 25px;
+        }
+        &__logo {
+            width: 100%;
+            order: 0;
+        }
+
+        &__menu {
+            width: 63%;
+            order: 1;
+            padding-left: 0;
+            margin-top: 45px;
+        }
+        &__login {
+            margin-top: 21px;
+            position: static;
+            width: 100%;
+        }
+        &__partners {
+            order: 1;
+            width: 100%;
+            margin-top: 18px;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .logo--white {
+        width: 277px;
+        height: 92px;
+    }
+    .social {
+        width: 100%;
+        align-items: flex-end;
+        &__icons {
+            order: 1;
+            margin-right: -16px;
+        }
+        &__contacts {
+            margin-top: 3px;
+            margin-bottom: 7px;
+        }
+    }
+    .phone {
+        margin-bottom: 12px;
+    }
+    .pay {
+        margin-top: 0;
+    }
+    .rights {
+        position: static;
+        padding: 22px 15px 6px 15px;
+    }
 }
 
-@media only screen and (max-width: 413px) {
+@media only screen and (max-width: 319px) {
   
-}
-@media only screen and (max-width: 320px) {
-
 }
