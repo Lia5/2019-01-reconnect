@@ -8,6 +8,10 @@
     .circle-bg {
         left: 26%;
     }
+    header .circle-bg {
+         bottom: -1000px;
+         left: 800px;
+    }
     header {
         background-position: right 0 bottom -153px;
         h1 {
@@ -28,7 +32,8 @@
     }
     //problems
     .problems__circle-bg {
-        left: 50%;
+        left: 800px;
+        bottom: -209px;
     }
     .problems__mincircle-bg {
         left: 5%;
@@ -72,13 +77,12 @@
     }
     .map-dot1 {
         top: 18%;
-        left: -17%;
+        left: -78px;
     }
     .map-dot2 {
         top: 44%;
-        left: 26%;
+        left: 159px;
         top: calc(44% + 6px);
-        left: calc(26% + 2px);
     }
     .map-pin1 {
         width: 22px;
@@ -109,8 +113,8 @@
         left: calc(41% + 1px);
     }
     #map-ret {
-        top: 29%;
-        left: 18%;
+        top: 35%;
+        left: 111px;
     }
     #map-dev {
         top: 44%;
@@ -301,17 +305,14 @@
         padding-top: 99px;
     }
     .map-dot1 {
-        left: -32%;
         top: 22%;
     }
     .map-dot2 {
         top: 48%;
         top: calc(48% + 7px);
-        left: 22%;
     }
     #map-ret {
         top: 39%;
-        left: 10%;
     }
     .map-pin1 {
         top: 29%;
@@ -325,12 +326,16 @@
         top: 50%;
     }
     .map-dot3 {
-        top: 59%;
+        top: 64%;
         left: 40%;
         left: calc(40% + 3px);
     }
     .map-pin4 {
-        top: 56%;
+        top: 61%;
+    }
+    #map-dev {
+        top: 54%;
+        left: 37%;
     }
     //choice
     .choice__circle-bg {
@@ -536,17 +541,17 @@
         margin-bottom: 63px;
     }
     .map-dot1 {
-        left: -42%;
+        left: -125px;
         top: 20%;
     }
     .map-dot2 {
         top: 47%;
         top: calc(47% + -2px);
-        left: 21%;
+        left: 111px;
     }
     #map-ret {
         top: 37%;
-        left: 7%;
+        left: 61px;
     }
     // choice
     .choice__circle-bg {
@@ -772,6 +777,8 @@
             width: 100%;
             max-height: 482px;
             overflow: hidden;
+            margin: 0 auto;
+            max-width: 480px;
         }
         &__main {
             width: 100%;
@@ -779,7 +786,9 @@
 
         }
         &__map img {
-            width: 100%;
+            width: 115%;
+            margin-left: 0;
+            margin-top: -135px;
         }
         &__title {
             margin-bottom: 41px;
@@ -1054,16 +1063,17 @@
         margin-left: 59px;
     }
     .map-dot1 {
-        left: -25%;
+        left: -81px;
         top: 13%;
     }
     .map-dot2 {
+        left: 155px;
         top: 63%;
         top: calc(63% + -3px);
     }
     #map-ret {
         top: 44%;
-        left: 32%;
+        left: 100px;
     }
     .map-pin1 {
         top: 34%;
