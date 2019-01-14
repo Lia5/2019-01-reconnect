@@ -91,6 +91,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     &-controls {
+        z-index: 1;
         .btn {
             margin-right: 66px;
         }
