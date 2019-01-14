@@ -59,6 +59,9 @@ footer {
         padding-bottom: 92px;
         a {
             color: #fff;
+            &:hover {
+                text-decoration: underline;
+            }
         }
         span {
             padding: 0 5px;
@@ -81,6 +84,9 @@ footer {
             display: block;
             color: #fff;
             padding-bottom: 21px;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
     &__partners {
@@ -141,6 +147,9 @@ footer {
         a {
             display: block;
             color: #fff;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 

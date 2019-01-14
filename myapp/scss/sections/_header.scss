@@ -106,6 +106,7 @@ nav {
         }
     }
     &__text {
+        display: block;
         padding: 20px 10px 10px;
         font-family: "Lato";
         font-size: 12px;
@@ -114,6 +115,7 @@ nav {
         color: $accent;
         text-align: center;
         cursor: pointer;
+        text-decoration: none;
     }
 }
 .mouse {
